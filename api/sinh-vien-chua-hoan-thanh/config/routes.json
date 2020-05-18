@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sinh-vien-chua-hoan-thanhs",
+      "handler": "sinh-vien-chua-hoan-thanh.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sinh-vien-chua-hoan-thanhs/count",
+      "handler": "sinh-vien-chua-hoan-thanh.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sinh-vien-chua-hoan-thanhs/:id",
+      "handler": "sinh-vien-chua-hoan-thanh.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sinh-vien-chua-hoan-thanhs",
+      "handler": "sinh-vien-chua-hoan-thanh.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sinh-vien-chua-hoan-thanhs/:id",
+      "handler": "sinh-vien-chua-hoan-thanh.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sinh-vien-chua-hoan-thanhs/:id",
+      "handler": "sinh-vien-chua-hoan-thanh.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

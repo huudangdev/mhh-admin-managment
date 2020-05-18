@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/phieu-dang-kis",
+      "handler": "phieu-dang-ki.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/phieu-dang-kis/count",
+      "handler": "phieu-dang-ki.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/phieu-dang-kis/:id",
+      "handler": "phieu-dang-ki.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/phieu-dang-kis",
+      "handler": "phieu-dang-ki.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/phieu-dang-kis/:id",
+      "handler": "phieu-dang-ki.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/phieu-dang-kis/:id",
+      "handler": "phieu-dang-ki.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

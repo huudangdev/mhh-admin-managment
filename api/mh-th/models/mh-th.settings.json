@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "mh_ths",
+  "info": {
+    "name": "MH_TH"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "MHMo": {
+      "model": "monhocmo"
+    },
+    "maTietHoc": {
+      "model": "mh-th"
+    }
+  }
+}

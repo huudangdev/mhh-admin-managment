@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ctpdks",
+      "handler": "ctpdk.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ctpdks/count",
+      "handler": "ctpdk.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ctpdks/:id",
+      "handler": "ctpdk.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ctpdks",
+      "handler": "ctpdk.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ctpdks/:id",
+      "handler": "ctpdk.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ctpdks/:id",
+      "handler": "ctpdk.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

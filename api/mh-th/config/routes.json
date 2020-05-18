@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mh-ths",
+      "handler": "mh-th.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mh-ths/count",
+      "handler": "mh-th.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mh-ths/:id",
+      "handler": "mh-th.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mh-ths",
+      "handler": "mh-th.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mh-ths/:id",
+      "handler": "mh-th.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mh-ths/:id",
+      "handler": "mh-th.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

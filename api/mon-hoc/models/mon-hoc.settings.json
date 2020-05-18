@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "mon_hocs",
+  "info": {
+    "name": "Môn học"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "tenMon": {
+      "type": "string"
+    },
+    "soTiet": {
+      "type": "integer"
+    },
+    "tinChi": {
+      "type": "integer"
+    },
+    "hocPhiMonHoc": {
+      "type": "biginteger"
+    },
+    "maLoaiMon": {
+      "model": "loai-mon"
+    }
+  }
+}

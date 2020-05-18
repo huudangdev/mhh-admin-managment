@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/phieu-thus",
+      "handler": "phieu-thu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/phieu-thus/count",
+      "handler": "phieu-thu.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/phieu-thus/:id",
+      "handler": "phieu-thu.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/phieu-thus",
+      "handler": "phieu-thu.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/phieu-thus/:id",
+      "handler": "phieu-thu.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/phieu-thus/:id",
+      "handler": "phieu-thu.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

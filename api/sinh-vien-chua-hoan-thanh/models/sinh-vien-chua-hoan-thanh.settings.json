@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "sinh_vien_chua_hoan_thanhs",
+  "info": {
+    "name": "Sinh viên chưa hoàn thành"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "hocPhiDuKien": {
+      "type": "biginteger"
+    },
+    "hocPhiDaDong": {
+      "type": "biginteger"
+    },
+    "conLai": {
+      "type": "biginteger"
+    },
+    "maHocKiNamHoc": {
+      "model": "hoc-ki-nam-hoc"
+    },
+    "maSinhVien": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

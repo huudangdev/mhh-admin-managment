@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "phieu_thus",
+  "info": {
+    "name": "Phiếu thu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ngayLap": {
+      "type": "date"
+    },
+    "soTienThu": {
+      "type": "integer"
+    },
+    "soPhieuDangKi": {
+      "model": "phieu-dang-ki"
+    }
+  }
+}

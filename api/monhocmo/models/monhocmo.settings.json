@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "monhocmos",
+  "info": {
+    "name": "MONHOCMO"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "siSo": {
+      "type": "integer"
+    },
+    "maHocKiNamHoc": {
+      "model": "hoc-ki-nam-hoc"
+    },
+    "maMonHoc": {
+      "model": "mon-hoc"
+    }
+  }
+}

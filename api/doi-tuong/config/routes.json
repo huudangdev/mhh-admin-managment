@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/doi-tuongs",
+      "handler": "doi-tuong.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/doi-tuongs/count",
+      "handler": "doi-tuong.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/doi-tuongs/:id",
+      "handler": "doi-tuong.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/doi-tuongs",
+      "handler": "doi-tuong.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/doi-tuongs/:id",
+      "handler": "doi-tuong.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/doi-tuongs/:id",
+      "handler": "doi-tuong.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

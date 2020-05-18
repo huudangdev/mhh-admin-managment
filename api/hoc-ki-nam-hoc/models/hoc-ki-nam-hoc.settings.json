@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "hoc_ki_nam_hocs",
+  "info": {
+    "name": "Học kì Năm học"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "hocKi": {
+      "type": "string"
+    },
+    "namHoc": {
+      "type": "string"
+    },
+    "hanDKHP": {
+      "type": "datetime"
+    },
+    "hanThuHP": {
+      "type": "datetime"
+    }
+  }
+}

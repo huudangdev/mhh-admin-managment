@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "loai_mons",
+  "info": {
+    "name": "Loại môn"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "tenLoaiMon": {
+      "type": "string"
+    },
+    "tietTC": {
+      "type": "integer"
+    },
+    "hocPhiTC": {
+      "type": "biginteger"
+    }
+  }
+}

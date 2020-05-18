@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "doi_tuongs",
+  "info": {
+    "name": "Đối tượng"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "tenDoiTuong": {
+      "type": "string"
+    },
+    "tiLeGiamHP": {
+      "type": "integer"
+    }
+  }
+}

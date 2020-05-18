@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "tiet_hocs",
+  "info": {
+    "name": "Tiết học"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "thu": {
+      "type": "integer"
+    },
+    "tiet": {
+      "type": "integer"
+    }
+  }
+}

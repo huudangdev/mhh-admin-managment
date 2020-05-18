@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/loai-mons",
+      "handler": "loai-mon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/loai-mons/count",
+      "handler": "loai-mon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/loai-mons/:id",
+      "handler": "loai-mon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/loai-mons",
+      "handler": "loai-mon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/loai-mons/:id",
+      "handler": "loai-mon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/loai-mons/:id",
+      "handler": "loai-mon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

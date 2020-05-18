@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "ct_cthocs",
+  "info": {
+    "name": "CT_CTHOC"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ghiChu": {
+      "type": "text"
+    },
+    "maCTH": {
+      "model": "cthoc"
+    },
+    "maMonHoc": {
+      "model": "mon-hoc"
+    }
+  }
+}

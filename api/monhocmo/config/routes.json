@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/monhocmos",
+      "handler": "monhocmo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monhocmos/count",
+      "handler": "monhocmo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/monhocmos/:id",
+      "handler": "monhocmo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/monhocmos",
+      "handler": "monhocmo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/monhocmos/:id",
+      "handler": "monhocmo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/monhocmos/:id",
+      "handler": "monhocmo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

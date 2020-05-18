@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/khoas",
+      "handler": "khoa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/khoas/count",
+      "handler": "khoa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/khoas/:id",
+      "handler": "khoa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/khoas",
+      "handler": "khoa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/khoas/:id",
+      "handler": "khoa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/khoas/:id",
+      "handler": "khoa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

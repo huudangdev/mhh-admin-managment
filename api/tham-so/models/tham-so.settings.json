@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "tham_sos",
+  "info": {
+    "name": "Tham so"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ngayHocTD": {
+      "type": "integer"
+    },
+    "tietHocTD": {
+      "type": "integer"
+    }
+  }
+}

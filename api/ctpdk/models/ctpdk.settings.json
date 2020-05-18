@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "ctpdks",
+  "info": {
+    "name": "CTPDK"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "soPhieuDangKi": {
+      "model": "phieu-dang-ki"
+    },
+    "maMonHoc": {
+      "model": "mon-hoc"
+    }
+  }
+}

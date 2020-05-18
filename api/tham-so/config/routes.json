@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tham-sos",
+      "handler": "tham-so.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tham-sos/count",
+      "handler": "tham-so.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tham-sos/:id",
+      "handler": "tham-so.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tham-sos",
+      "handler": "tham-so.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tham-sos/:id",
+      "handler": "tham-so.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tham-sos/:id",
+      "handler": "tham-so.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

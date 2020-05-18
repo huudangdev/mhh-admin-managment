@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "cthocs",
+  "info": {
+    "name": "CTHOC"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "hocKi": {
+      "type": "string"
+    },
+    "maNganh": {
+      "model": "nganh"
+    }
+  }
+}

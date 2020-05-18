@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cthocs",
+      "handler": "cthoc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cthocs/count",
+      "handler": "cthoc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cthocs/:id",
+      "handler": "cthoc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cthocs",
+      "handler": "cthoc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cthocs/:id",
+      "handler": "cthoc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cthocs/:id",
+      "handler": "cthoc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

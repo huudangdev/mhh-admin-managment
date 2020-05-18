@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "dia_phuongs",
+  "info": {
+    "name": "Địa phương"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "tenTinh": {
+      "type": "string"
+    },
+    "tenQuan": {
+      "type": "string"
+    },
+    "vungSau": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

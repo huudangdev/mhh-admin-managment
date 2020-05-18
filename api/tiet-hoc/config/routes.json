@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tiet-hocs",
+      "handler": "tiet-hoc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tiet-hocs/count",
+      "handler": "tiet-hoc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tiet-hocs/:id",
+      "handler": "tiet-hoc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tiet-hocs",
+      "handler": "tiet-hoc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tiet-hocs/:id",
+      "handler": "tiet-hoc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tiet-hocs/:id",
+      "handler": "tiet-hoc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
