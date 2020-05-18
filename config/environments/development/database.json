@@ -2,13 +2,12 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "bookshelf",
+      "connector": "mongoose",
       "settings": {
-        "client": "sqlite",
-        "filename": ".tmp/data.db"
+        "uri": "mongodb+srv://dev:Uit1657421717;@firstappwithnode-4uwtl.mongodb.net/dkhp?retryWrites=true&w=majority"
       },
       "options": {
-        "useNullAsDefault": true
+        "ssl": true
       }
     }
   }
