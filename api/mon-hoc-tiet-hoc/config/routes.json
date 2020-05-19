@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mon-hoc-tiet-hocs",
+      "handler": "mon-hoc-tiet-hoc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mon-hoc-tiet-hocs/count",
+      "handler": "mon-hoc-tiet-hoc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mon-hoc-tiet-hocs/:id",
+      "handler": "mon-hoc-tiet-hoc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mon-hoc-tiet-hocs",
+      "handler": "mon-hoc-tiet-hoc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mon-hoc-tiet-hocs/:id",
+      "handler": "mon-hoc-tiet-hoc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mon-hoc-tiet-hocs/:id",
+      "handler": "mon-hoc-tiet-hoc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

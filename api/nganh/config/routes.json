@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nganhs",
+      "handler": "nganh.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nganhs/count",
+      "handler": "nganh.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nganhs/:id",
+      "handler": "nganh.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nganhs",
+      "handler": "nganh.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nganhs/:id",
+      "handler": "nganh.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nganhs/:id",
+      "handler": "nganh.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

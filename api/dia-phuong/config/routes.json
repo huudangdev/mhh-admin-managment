@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dia-phuongs",
+      "handler": "dia-phuong.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dia-phuongs/count",
+      "handler": "dia-phuong.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dia-phuongs/:id",
+      "handler": "dia-phuong.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dia-phuongs",
+      "handler": "dia-phuong.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dia-phuongs/:id",
+      "handler": "dia-phuong.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dia-phuongs/:id",
+      "handler": "dia-phuong.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

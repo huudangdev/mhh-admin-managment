@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chuong-trinh-hocs",
+      "handler": "chuong-trinh-hoc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chuong-trinh-hocs/count",
+      "handler": "chuong-trinh-hoc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chuong-trinh-hocs/:id",
+      "handler": "chuong-trinh-hoc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/chuong-trinh-hocs",
+      "handler": "chuong-trinh-hoc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chuong-trinh-hocs/:id",
+      "handler": "chuong-trinh-hoc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chuong-trinh-hocs/:id",
+      "handler": "chuong-trinh-hoc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

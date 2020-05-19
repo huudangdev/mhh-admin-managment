@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mon_hoc_tiet_hocs",
+  "info": {
+    "name": "môn học - tiết học"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "thu": {
+      "type": "integer"
+    },
+    "tiet": {
+      "type": "integer"
+    }
+  }
+}

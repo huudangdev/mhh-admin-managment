@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nganhs",
+  "info": {
+    "name": "ngành"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "tenNganh": {
+      "type": "string"
+    },
+    "khoa": {
+      "model": "khoa"
+    }
+  }
+}

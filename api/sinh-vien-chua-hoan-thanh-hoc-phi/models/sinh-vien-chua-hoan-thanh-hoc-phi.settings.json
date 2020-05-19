@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sinh_vien_chua_hoan_thanh_hoc_phi",
+  "info": {
+    "name": "sinh viên chưa hoàn thành học phí"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "hocPhiDangKi": {
+      "type": "biginteger"
+    },
+    "hocPhiDaDong": {
+      "type": "biginteger"
+    },
+    "conLai": {
+      "type": "biginteger"
+    },
+    "sinhVien": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "hocKiNamHoc": {
+      "model": "hoc-ki-nam-hoc"
+    }
+  }
+}

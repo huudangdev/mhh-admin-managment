@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chuong_trinh_hocs",
+  "info": {
+    "name": "chương trình học"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ghiChu": {
+      "type": "text"
+    },
+    "hocKi": {
+      "type": "integer"
+    },
+    "monHoc": {
+      "model": "mon-hoc"
+    },
+    "nganh": {
+      "model": "nganh"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "phieu_dang_ki",
+  "info": {
+    "name": "phiếu đăng kí"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ngayLap": {
+      "type": "datetime"
+    },
+    "tongSoTinChi": {
+      "type": "integer"
+    },
+    "hocPhiDangKi": {
+      "type": "integer"
+    },
+    "sinhVien": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "hocKiNamHoc": {
+      "model": "hoc-ki-nam-hoc"
+    }
+  }
+}

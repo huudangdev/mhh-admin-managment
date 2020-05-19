@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mon-hocs",
+      "handler": "mon-hoc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mon-hocs/count",
+      "handler": "mon-hoc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mon-hocs/:id",
+      "handler": "mon-hoc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mon-hocs",
+      "handler": "mon-hoc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mon-hocs/:id",
+      "handler": "mon-hoc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mon-hocs/:id",
+      "handler": "mon-hoc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
