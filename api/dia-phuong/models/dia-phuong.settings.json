@@ -18,6 +18,9 @@
     "vungSau": {
       "type": "boolean",
       "default": false
+    },
+    "tenQuanHuyen": {
+      "type": "string"
     }
   }
 }
