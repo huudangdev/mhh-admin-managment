@@ -53,10 +53,19 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "hoTen": {
-      "type": "string"
+    "dia_phuong": {
+      "model": "dia-phuong"
     },
-    "gioiTinh": {
+    "doi_tuong": {
+      "model": "doi-tuong"
+    },
+    "khoa": {
+      "model": "khoa"
+    },
+    "nganh": {
+      "model": "nganh"
+    },
+    "gioi_tinh": {
       "type": "enumeration",
       "enum": [
         "NAM",
@@ -64,14 +73,19 @@
         "KHAC"
       ]
     },
-    "diaPhuong": {
-      "model": "dia-phuong"
+    "ho_va_ten": {
+      "type": "string"
     },
-    "doiTuong": {
-      "model": "doi-tuong"
-    },
-    "nganh": {
-      "model": "nganh"
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

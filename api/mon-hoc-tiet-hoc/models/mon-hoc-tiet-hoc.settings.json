@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "mon_hoc_tiet_hocs",
   "info": {
-    "name": "môn học - tiết học"
+    "name": "tiết học"
   },
   "options": {
     "increments": true,

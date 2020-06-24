@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "chuong_trinh_hocs",
   "info": {
-    "name": "chương trình học"
+    "name": "chương trình học "
   },
   "options": {
     "increments": true,
