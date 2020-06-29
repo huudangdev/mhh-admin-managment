@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "chuong_trinh_hocs",
   "info": {
-    "name": "chương trình học "
+    "name": "chương trình học"
   },
   "options": {
     "increments": true,
@@ -12,14 +12,14 @@
     "ghiChu": {
       "type": "text"
     },
-    "hocKi": {
-      "type": "integer"
-    },
-    "monHoc": {
-      "model": "mon-hoc"
+    "mon_hocs": {
+      "collection": "mon-hoc"
     },
     "nganh": {
       "model": "nganh"
+    },
+    "hoc_ki_nam_hoc": {
+      "model": "hoc-ki-nam-hoc"
     }
   }
 }

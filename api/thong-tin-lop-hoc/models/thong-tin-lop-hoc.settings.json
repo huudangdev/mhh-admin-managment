@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thong_tin_lop_hocs",
+  "info": {
+    "name": "Thông tin lớp học"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "hoc_ki_nam_hoc": {
+      "model": "hoc-ki-nam-hoc"
+    },
+    "mon_hoc": {
+      "model": "mon-hoc"
+    },
+    "siSo": {
+      "type": "integer"
+    },
+    "tiet_hoc": {
+      "model": "mon-hoc-tiet-hoc"
+    }
+  }
+}

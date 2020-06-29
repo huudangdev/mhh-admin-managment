@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/thong-tin-lop-hocs",
+      "handler": "thong-tin-lop-hoc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thong-tin-lop-hocs/count",
+      "handler": "thong-tin-lop-hoc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/thong-tin-lop-hocs/:id",
+      "handler": "thong-tin-lop-hoc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/thong-tin-lop-hocs",
+      "handler": "thong-tin-lop-hoc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/thong-tin-lop-hocs/:id",
+      "handler": "thong-tin-lop-hoc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/thong-tin-lop-hocs/:id",
+      "handler": "thong-tin-lop-hoc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
