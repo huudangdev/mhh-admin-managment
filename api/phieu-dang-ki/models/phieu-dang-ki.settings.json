@@ -24,6 +24,9 @@
     },
     "hocKiNamHoc": {
       "model": "hoc-ki-nam-hoc"
+    },
+    "mon_hoc": {
+      "collection": "mon-hoc"
     }
   }
 }

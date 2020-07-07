@@ -5,4 +5,8 @@
  * to customize this controller
  */
 
-module.exports = {};
+const {create} = require('../routes/create')
+
+module.exports = {
+  create
+};

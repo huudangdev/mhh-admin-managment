@@ -20,6 +20,9 @@
     },
     "hoc_ki_nam_hoc": {
       "model": "hoc-ki-nam-hoc"
+    },
+    "hoc_ki": {
+      "type": "integer"
     }
   }
 }
